@@ -35,11 +35,11 @@ public class Cliente {
 	private Integer telefone;
 
 	@Temporal(value = TemporalType.DATE)
-	@Column(name = "cli_data_nasc", nullable = false)
+	@Column(name = "cli_dataNascimento", nullable = false)
 	private Date dataNascimento;
 
 	@Temporal(value = TemporalType.DATE)
-	@Column(name = "cli_data_cad", nullable = false)
+	@Column(name = "cli_dataCadastro", nullable = false)
 	private Date dataCadastro;
 
 	@Column(name = "cli_email", length = 80)
